@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("WIN_20221204_14_32_42_Pro.jpg");
+  background-size:cover;
+}
+
+h2{
+  letter-spacing: 5px;
+  font-size: 26px;
+  text-align:center ;
+  color: white;
+}
+
+.date{
+  display: flex;
+}
+
+.date div{
+  margin: 10px;
+}
+
+.date span{
+  width: 100px;
+  height: 80px;
+  background-color: slateblue;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.date .month span{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.date .dayOfMonth span{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.date .day span{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.date .text{
+  height: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: darkblue;
+  opacity: 0.8;
+}
+
+.clock{
+  display: flex;
+}
+
+
+.clock div{
+  margin: 10px;
+}
+
+.clock span{
+  width: 100px;
+  height: 80px;
+  background-color: slateblue;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.clock .text{
+  height: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: darkblue;
+  opacity: 0.8;
+}
